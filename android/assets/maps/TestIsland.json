@@ -1,0 +1,305 @@
+		{
+			"height": 25,
+			"layers": [
+				{
+					"compression": "zlib",
+					"data": "eJwTZGBgEBzFo3gUj+JRPIqRsPCoHXSzQwiIlQlgoWEaDkJIGCZG7XDAZge1MT3swIYBAi8qqA==",
+					"encoding": "base64",
+					"height": 25,
+					"name": "Background",
+					"opacity": 1,
+					"type": "tilelayer",
+					"visible": true,
+					"width": 25,
+					"x": 0,
+					"y": 0
+				},
+				{
+					"compression": "zlib",
+					"data": "eJzrYGBg6KYhngTEaxhoC7aN2jFqx6gdo3YMgB2zgHgukXjJILVDFYcdd/DYoUqGP8gB9LbDDUkcxlansh2UADc8csMxPqgJ3OlghyuaHfQAAMHpRZQ=",
+					"encoding": "base64",
+					"height": 25,
+					"name": "Foreground",
+					"opacity": 1,
+					"type": "tilelayer",
+					"visible": true,
+					"width": 25,
+					"x": 0,
+					"y": 0
+				},
+				{
+					"compression": "zlib",
+					"data": "eJxjYBgFo2AUjIKBAYxAzATELEDMCsRsQMwOxJxAzEUls5nRMAcapoZdo4D2wAwHe7CAweimoQLMB9oBNAIXgPgaDfEtIAYAfCgWLA==",
+					"encoding": "base64",
+					"height": 25,
+					"name": "Overhead",
+					"opacity": 1,
+					"type": "tilelayer",
+					"visible": true,
+					"width": 25,
+					"x": 0,
+					"y": 0
+				},
+				{
+					"compression": "zlib",
+					"data": "eJxjYBgFo2AUjIJRMFjBTBLU7qWSHTA+NvPItWMUjIJRQH0AACt1BAM=",
+					"encoding": "base64",
+					"height": 25,
+					"name": "Other",
+					"opacity": 1,
+					"type": "tilelayer",
+					"visible": true,
+					"width": 25,
+					"x": 0,
+					"y": 0
+				},
+				{
+					"draworder": "topdown",
+					"height": 0,
+					"name": "ColliderRectangles",
+					"objects": [
+						{
+							"height": 40,
+							"id": 1,
+							"name": "",
+							"properties": {
+								"material": "stone"
+							},
+							"rotation": 0,
+							"type": "wall",
+							"visible": true,
+							"width": 96,
+							"x": 272,
+							"y": 205
+						},
+						{
+							"height": 40,
+							"id": 2,
+							"name": "",
+							"properties": {
+								"material": "stone"
+							},
+							"rotation": 0,
+							"type": "wall",
+							"visible": true,
+							"width": 80,
+							"x": 176,
+							"y": 205
+						},
+						{
+							"height": 6,
+							"id": 3,
+							"name": "",
+							"properties": {
+								"type": "evergreen"
+							},
+							"rotation": 0,
+							"type": "tree",
+							"visible": true,
+							"width": 9,
+							"x": 83,
+							"y": 286
+						},
+						{
+							"height": 6,
+							"id": 4,
+							"name": "",
+							"properties": {
+								"type": "evergreen"
+							},
+							"rotation": 0,
+							"type": "tree",
+							"visible": true,
+							"width": 9,
+							"x": 35,
+							"y": 286
+						},
+						{
+							"height": 4,
+							"id": 5,
+							"name": "",
+							"properties": {
+								"type": "water"
+							},
+							"rotation": 0,
+							"type": "well",
+							"visible": true,
+							"width": 13,
+							"x": 338,
+							"y": 351
+						},
+						{
+							"height": 400,
+							"id": 6,
+							"name": "",
+							"properties": {
+								"type": "map_bounds"
+							},
+							"rotation": 0,
+							"type": "",
+							"visible": true,
+							"width": 16,
+							"x": 394,
+							"y": 3.33333
+						},
+						{
+							"height": 21.5,
+							"id": 7,
+							"name": "",
+							"properties": {
+								"type": "map_bounds"
+							},
+							"rotation": 0,
+							"type": "",
+							"visible": true,
+							"width": 400,
+							"x": 0,
+							"y": -16
+						},
+						{
+							"height": 400,
+							"id": 8,
+							"name": "",
+							"properties": {
+								"type": "map_bounds"
+							},
+							"rotation": 0,
+							"type": "",
+							"visible": true,
+							"width": 16,
+							"x": -9.625,
+							"y": 0.5
+						},
+						{
+							"height": 16,
+							"id": 9,
+							"name": "",
+							"properties": {
+								"type": "map_bounds"
+							},
+							"rotation": 0,
+							"type": "",
+							"visible": true,
+							"width": 400,
+							"x": 0,
+							"y": 398
+						},
+						{
+							"height": 35,
+							"id": 10,
+							"name": "",
+							"properties": {
+								"material": "wood"
+							},
+							"rotation": 0,
+							"type": "door",
+							"visible": true,
+							"width": 16,
+							"x": 256,
+							"y": 205
+						},
+						{
+							"height": 3,
+							"id": 11,
+							"name": "",
+							"properties": {
+								"material": "wood",
+								"type": "chest"
+							},
+							"rotation": 0,
+							"type": "container",
+							"visible": true,
+							"width": 11,
+							"x": 114,
+							"y": 290
+						},
+						{
+							"height": 3,
+							"id": 12,
+							"name": "",
+							"properties": {
+								"material": "wood",
+								"type": "barrel"
+							},
+							"rotation": 0,
+							"type": "container",
+							"visible": true,
+							"width": 10,
+							"x": 163,
+							"y": 241
+						},
+						{
+							"height": 3,
+							"id": 13,
+							"name": "",
+							"properties": {
+								"material": "wood",
+								"type": "barrel"
+							},
+							"rotation": 0,
+							"type": "container",
+							"visible": true,
+							"width": 10,
+							"x": 371,
+							"y": 241
+						},
+						{
+							"height": 6,
+							"id": 14,
+							"name": "",
+							"properties": {
+								"type": "evergreen"
+							},
+							"rotation": 0,
+							"type": "tree",
+							"visible": true,
+							"width": 9,
+							"x": 275,
+							"y": 302
+						}
+					],
+					"opacity": 1,
+					"type": "objectgroup",
+					"visible": true,
+					"width": 0,
+					"x": 0,
+					"y": 0
+				}
+			],
+			"nextobjectid": 15,
+			"orientation": "orthogonal",
+			"properties": {},
+			"renderorder": "right-down",
+			"tileheight": 16,
+			"tilesets": [
+				{
+					"firstgid": 1,
+					"image": "tilesets/town.png",
+					"imageheight": 128,
+					"imagewidth": 256,
+					"margin": 0,
+					"name": "town",
+					"properties": {},
+					"spacing": 0,
+					"tilecount": 128,
+					"tileheight": 16,
+					"tilewidth": 16
+				},
+				{
+					"firstgid": 129,
+					"image": "tilesets/indoor_stone.png",
+					"imageheight": 192,
+					"imagewidth": 288,
+					"margin": 0,
+					"name": "indoor_stone",
+					"properties": {},
+					"spacing": 0,
+					"tilecount": 216,
+					"tileheight": 16,
+					"tilewidth": 16
+				}
+			],
+			"tilewidth": 16,
+			"version": 1,
+			"width": 25
+		}

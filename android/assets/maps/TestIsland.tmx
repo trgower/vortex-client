@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="16" tileheight="16" nextobjectid="15">
+ <tileset firstgid="1" name="town" tilewidth="16" tileheight="16" tilecount="128">
+  <image source="tilesets/town.png" width="256" height="128"/>
+ </tileset>
+ <tileset firstgid="129" name="indoor_stone" tilewidth="16" tileheight="16" tilecount="216">
+  <image source="tilesets/indoor_stone.png" width="288" height="192"/>
+ </tileset>
+ <layer name="Background" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJwTZGBgEBzFo3gUj+JRPIqRsPCoHXSzQwiIlQlgoWEaDkJIGCZG7XDAZge1MT3swIYBAi8qqA==
+  </data>
+ </layer>
+ <layer name="Foreground" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJzrYGBg6KYhngTEaxhoC7aN2jFqx6gdo3YMgB2zgHgukXjJILVDFYcdd/DYoUqGP8gB9LbDDUkcxlansh2UADc8csMxPqgJ3OlghyuaHfQAAMHpRZQ=
+  </data>
+ </layer>
+ <layer name="Overhead" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIKBAYxAzATELEDMCsRsQMwOxJxAzEUls5nRMAcapoZdo4D2wAwHe7CAweimoQLMB9oBNAIXgPgaDfEtIAYAfCgWLA==
+  </data>
+ </layer>
+ <layer name="Other" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMFjBTBLU7qWSHTA+NvPItWMUjIJRQH0AACt1BAM=
+  </data>
+ </layer>
+ <objectgroup name="ColliderRectangles">
+  <object id="1" type="wall" x="272" y="205" width="96" height="40">
+   <properties>
+    <property name="material" value="stone"/>
+   </properties>
+  </object>
+  <object id="2" type="wall" x="176" y="205" width="80" height="40">
+   <properties>
+    <property name="material" value="stone"/>
+   </properties>
+  </object>
+  <object id="3" type="tree" x="83" y="286" width="9" height="6">
+   <properties>
+    <property name="type" value="evergreen"/>
+   </properties>
+  </object>
+  <object id="4" type="tree" x="35" y="286" width="9" height="6">
+   <properties>
+    <property name="type" value="evergreen"/>
+   </properties>
+  </object>
+  <object id="5" type="well" x="338" y="351" width="13" height="4">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="6" x="394" y="3.33333" width="16" height="400">
+   <properties>
+    <property name="type" value="map_bounds"/>
+   </properties>
+  </object>
+  <object id="7" x="0" y="-16" width="400" height="21.5">
+   <properties>
+    <property name="type" value="map_bounds"/>
+   </properties>
+  </object>
+  <object id="8" x="-9.625" y="0.5" width="16" height="400">
+   <properties>
+    <property name="type" value="map_bounds"/>
+   </properties>
+  </object>
+  <object id="9" x="0" y="398" width="400" height="16">
+   <properties>
+    <property name="type" value="map_bounds"/>
+   </properties>
+  </object>
+  <object id="10" type="door" x="256" y="205" width="16" height="35">
+   <properties>
+    <property name="material" value="wood"/>
+   </properties>
+  </object>
+  <object id="11" type="container" x="114" y="290" width="11" height="3">
+   <properties>
+    <property name="material" value="wood"/>
+    <property name="type" value="chest"/>
+   </properties>
+  </object>
+  <object id="12" type="container" x="163" y="241" width="10" height="3">
+   <properties>
+    <property name="material" value="wood"/>
+    <property name="type" value="barrel"/>
+   </properties>
+  </object>
+  <object id="13" type="container" x="371" y="241" width="10" height="3">
+   <properties>
+    <property name="material" value="wood"/>
+    <property name="type" value="barrel"/>
+   </properties>
+  </object>
+  <object id="14" type="tree" x="275" y="302" width="9" height="6">
+   <properties>
+    <property name="type" value="evergreen"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
